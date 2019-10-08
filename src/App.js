@@ -1,9 +1,15 @@
 import React from 'react';
 import './App.css';
-import { Layout, Header } from 'antd';
+import { Layout } from 'antd';
 
 function App() {
-  return <Layout></Layout>;
+  return (
+    <Layout>
+      <div>
+        <p>Hello World!</p>
+      </div>
+    </Layout>
+  );
 }
 
 export default App;
