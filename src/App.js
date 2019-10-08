@@ -4,11 +4,9 @@ import { Layout } from 'antd';
 
 function App() {
   return (
-    <Layout>
-      <div>
-        <p>Hello World!</p>
-      </div>
-    </Layout>
+    <div>
+      <p>Hello World!</p>
+    </div>
   );
 }
 
