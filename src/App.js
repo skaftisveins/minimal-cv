@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import Header from './components/layouts/Header';
 
 import 'materialize-css/dist/css/materialize.min.css';
 import M from 'materialize-css/dist/js/materialize.min.js';
@@ -10,11 +11,9 @@ const App = () => {
     M.AutoInit();
   });
   return (
-    <div className='App'>
-      <div className='container'>
-        <h5>Enthusiastic Programmer</h5>
-        <h5>skaftisveins@gmail.com</h5>
-        <h1 className='title'>Skafti Sveinsson</h1>
+    <div className="App">
+      <Header />
+      <div className="container">
         <h4>About</h4>
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
